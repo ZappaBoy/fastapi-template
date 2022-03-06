@@ -14,8 +14,8 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(",")
 
 # Doc: http://127.0.0.1:80/redoc
 app = FastAPI(
-    title="Better Sports Bettor",
-    description="BSB - Better Sports Bettor",
+    title="Application",
+    description="FastAPI template",
     version="0.1",
 )
 
