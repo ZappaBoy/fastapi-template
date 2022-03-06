@@ -13,9 +13,3 @@ logger = Logger('Api')
 @router.get("/healthcheck")
 def healthcheck():
     return {"Status": "Alive"}
-
-
-@router.get("/top-player-in-teams")
-def analyze_keywords(response: Response):
-    response.status_code = status.HTTP_200_OK
-    return {'API': 'OK'}
