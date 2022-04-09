@@ -21,7 +21,7 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(',')
 app = FastAPI(
     title='FastAPI Template',
     description='FastAPI Template',
-    version='0.1',
+    version='0.1'
 )
 
 app.add_middleware(CORSMiddleware, allow_origins=ALLOWED_HOSTS)
